@@ -1,0 +1,17 @@
+server:
+  port: 9097
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/commentapp
+    username: postgres
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+
+
